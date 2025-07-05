@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "f-coronado",
+  title: "Hi, I'm Fabrizzio",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm software engineer at NASA with a background in robotics, passionate about applying AI, computer vision and autonomous navigation to real-world robotic systems."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/17mtZZifaAUJkxFy4PC35DYoMxMkepPbQ/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/f-coronado",
+  linkedin: "https://www.linkedin.com/in/fabrizzio-coronado/",
+  gmail: "fabrizzio37@gmail.com",
+  youtube: "https://www.youtube.com/@fabrizziocoronado7465",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +46,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "",
+  subTitle: "Software Engineer that ",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop and test scripts for JPSS weather satellites on simulator and actual satellites"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Ran multi-day test events as flight director ensuring safe execution of test procedure"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Configure, troubleshoot and maintain multiple satellite simulators"
     )
   ],
 
@@ -126,23 +124,31 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "University of Maryland",
+      logo: require("./assets/images/umdLogo.jpg"),
+      subHeader: "Master of Engineering in Robotics",
+      duration: "August 2022 - December 2024",
+      desc: "Graduated with a 3.47 GPA. Completed projects in autonomous mobile robots, swarms, Deep networks applications on optical flow",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of Maryland",
+      logo: require("./assets/images/umdLogo.jpg"),
+      subHeader: "Bachelor of Science in Mechanical Engineering",
+      duration: "January 2019 - May 2021",
+      desc: "Graduated with a 3.59 GPA. Took courses in mechatronics, computer vision and 3D printing and was a teaching assistant",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
+      schoolName: "Montgomery College",
+      logo: require("./assets/images/MCLogo.jpg"),
+      subHeader: "Associate of Science in Mechanical Engineering",
+      duration: "August 2016 - December 2018",
+      desc: "Graduated with a 3.8 GPA. Member of phi theta kappa",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -175,9 +181,9 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
+      company: "NASA JPSS",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      date: "July 2021 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -185,18 +191,18 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Intern",
+      company: "BAE Systems",
+      companylogo: require("./assets/images/baeLogo.jpg"),
+      date: "June 2020 – Jan 2021",
+      desc: "Modeled and drafted 40+ CAD models and drawings while managing configuration updates via Windchill PLM"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Intro to CAD Teaching Assistant",
+      company: "University of Maryland",
+      companylogo: require("./assets/images/umdLogo.png"),
+      date: "Aug 2019 – Dec 2019",
+      desc: "Attended 2 class sessions per week to help students. Held office hours on a weekly basis. Created video tutorials on Youtube for creating CAD models"
     }
   ]
 };
