@@ -184,10 +184,12 @@ const workExperiences = {
       company: "NASA JPSS",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "July 2021 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Software Engineer working on an integration, testing and operations team for the JPSS weather satellites",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Provided simulator support for the JPSS-2/NOAA-21 weather satellite prior and during its launch and early orbit campaign in November 2022 ",
+        "Developed and validated power and thermal control scripts for JPSS-3 and 4 weather satellites on simulator and flight hardware, scheduled to launch in 2027",
+        "Served as flight director during test events, ensuring clear communication and execution of procedures",
+        "Led the development of a 35-page guide for configuring, maintaining and troubleshooting JPSS2-4 satellite simulators "
       ]
     },
     {
@@ -195,14 +197,22 @@ const workExperiences = {
       company: "BAE Systems",
       companylogo: require("./assets/images/baeLogo.jpg"),
       date: "June 2020 – Jan 2021",
-      desc: "Modeled and drafted 40+ CAD models and drawings while managing configuration updates via Windchill PLM"
+      desc: "Seasonal Intern supporting the Ohio class submarine integration and testing",
+      descBullets: [
+        "Created 40+ models and drawings adhering to strict tolerances for Ohio class submarines which contributed to modernizing the upcoming submarines ",
+      ]
     },
     {
-      role: "Intro to CAD Teaching Assistant",
+      role: "Teaching Assistant",
       company: "University of Maryland",
       companylogo: require("./assets/images/umdLogo.png"),
       date: "Aug 2019 – Dec 2019",
-      desc: "Attended 2 class sessions per week to help students. Held office hours on a weekly basis. Created video tutorials on Youtube for creating CAD models"
+      des: "Teaching Assistant for Intro to Computer Aided Design course",
+      descBullets: [
+        "Taught and guided over 100 students on modeling and drafting parts ranging from X to Y in SolidWorks, PTC Creo and Autodesk Inventor",
+        "Aided students during 2 class sessions per week and held office hours on a weekly basis",
+        "Held review sessions before exams and uploaded tutorial videos for modeling and drafting parts which showed an increase in exam scores when compared to prior semesters"
+      ]
     }
   ]
 };
@@ -218,8 +228,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some of my projects during undergrad and graduate school",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
