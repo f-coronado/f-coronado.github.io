@@ -207,7 +207,7 @@ const workExperiences = {
     {
       role: "Teaching Assistant",
       company: "University of Maryland",
-      companylogo: require("./assets/images/umdLogo.png"),
+      companylogo: require("./assets/images/umdLogo.jpg"),
       date: "Aug 2019 – Dec 2019",
       des: "Teaching Assistant for Intro to Computer Aided Design course",
       descBullets: [
