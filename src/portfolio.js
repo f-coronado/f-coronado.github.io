@@ -146,7 +146,7 @@ const educationInfo = {
     },
     {
       schoolName: "Montgomery College",
-      logo: require("./assets/images/MCLogo.jpg"),
+      logo: require("./assets/images/MCLogo.png"),
       subHeader: "Associate of Science in Mechanical Engineering",
       duration: "August 2016 - December 2018",
       desc: "Graduated with a 3.8 GPA. Member of phi theta kappa"
