@@ -52,7 +52,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop and test scripts for JPSS weather satellites on simulator and actual satellites"
     ),
-    emoji("⚡ Ran multi-day test events as flight director ensuring safe execution of test procedure"),
+    emoji(
+      "⚡ Ran multi-day test events as flight director ensuring safe execution of test procedure"
+    ),
     emoji(
       "⚡ Configure, troubleshoot and maintain multiple satellite simulators"
     )
@@ -128,7 +130,7 @@ const educationInfo = {
       logo: require("./assets/images/umdLogo.jpg"),
       subHeader: "Master of Engineering in Robotics",
       duration: "August 2022 - December 2024",
-      desc: "Graduated with a 3.47 GPA. Completed projects in autonomous mobile robots, swarms, Deep networks applications on optical flow",
+      desc: "Graduated with a 3.47 GPA. Completed projects in autonomous mobile robots, swarms, Deep networks applications on optical flow"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -139,7 +141,7 @@ const educationInfo = {
       logo: require("./assets/images/umdLogo.jpg"),
       subHeader: "Bachelor of Science in Mechanical Engineering",
       duration: "January 2019 - May 2021",
-      desc: "Graduated with a 3.59 GPA. Took courses in mechatronics, computer vision and 3D printing and was a teaching assistant",
+      desc: "Graduated with a 3.59 GPA. Took courses in mechatronics, computer vision and 3D printing and was a teaching assistant"
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
@@ -147,7 +149,7 @@ const educationInfo = {
       logo: require("./assets/images/MCLogo.jpg"),
       subHeader: "Associate of Science in Mechanical Engineering",
       duration: "August 2016 - December 2018",
-      desc: "Graduated with a 3.8 GPA. Member of phi theta kappa",
+      desc: "Graduated with a 3.8 GPA. Member of phi theta kappa"
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -199,7 +201,7 @@ const workExperiences = {
       date: "June 2020 – Jan 2021",
       desc: "Seasonal Intern supporting the Ohio class submarine integration and testing",
       descBullets: [
-        "Created 40+ models and drawings adhering to strict tolerances for Ohio class submarines which contributed to modernizing the upcoming submarines ",
+        "Created 40+ models and drawings adhering to strict tolerances for Ohio class submarines which contributed to modernizing the upcoming submarines "
       ]
     },
     {
@@ -229,12 +231,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Some of my projects completed during undergrad and graduate school",
+  subtitle:
+    "Some of my projects completed during undergrad and graduate school",
   projects: [
     {
       image: require("./assets/images/robot_pic.png"),
       projectName: "Autonomous Mobile Robot",
-      projectDesc: "Assembled & programmed an autonomous mobile robot to transport blocks in randomized environment",
+      projectDesc:
+        "Assembled & programmed an autonomous mobile robot to transport blocks in randomized environment",
       footerLink: [
         {
           name: "View on Github",
@@ -249,7 +253,8 @@ const bigProjects = {
     {
       image: require("./assets/images/robot_pic.png"),
       projectName: "LLM Quantization",
-      projectDesc: "Assembled & programmed an autonomous mobile robot to transport blocks in randomized environment",
+      projectDesc:
+        "Assembled & programmed an autonomous mobile robot to transport blocks in randomized environment",
       footerLink: [
         {
           name: "View on Github",
@@ -268,7 +273,8 @@ const bigProjects = {
     {
       image: require("./assets/images/calibration_example.png"),
       projectName: "Checkerboard Calibration",
-      projectDesc: "Single camera calibration including data collection, corner detection and optimization of intrinsic/extrinsic camera parameters",
+      projectDesc:
+        "Single camera calibration including data collection, corner detection and optimization of intrinsic/extrinsic camera parameters",
       footerLink: [
         {
           name: "View on Github",
@@ -279,7 +285,8 @@ const bigProjects = {
     {
       image: require("./assets/images/pickNplace.gif"),
       projectName: "Pick and Place",
-      projectDesc: "Manipulator arm picking object from table and placing on the floor while avoiding obstacles within its workspace",
+      projectDesc:
+        "Manipulator arm picking object from table and placing on the floor while avoiding obstacles within its workspace",
       footerLink: [
         {
           name: "View on Github",
@@ -294,7 +301,8 @@ const bigProjects = {
     {
       image: require("./assets/images/pickNplace.gif"),
       projectName: "Teleoperating a custom mobile robot in Gazebo",
-      projectDesc: "Built a custom robot model in Solidworks, exported it as a URDF and integrated a lidar sensor for Rviz visualization. Deploed the robot in Gazebo for teleoperation using custom ROS publisher/subscriber nodes",
+      projectDesc:
+        "Built a custom robot model in Solidworks, exported it as a URDF and integrated a lidar sensor for Rviz visualization. Deploed the robot in Gazebo for teleoperation using custom ROS publisher/subscriber nodes",
       footerLink: [
         {
           name: "View on Github",
@@ -356,11 +364,15 @@ const achievementSection = {
 
     {
       title: "Linux and Bash for Data Engineering Certificate",
-      subtitle: "Completed Certifcation from Duke University for Linux and Bash for Data Engineering",
+      subtitle:
+        "Completed Certifcation from Duke University for Linux and Bash for Data Engineering",
       image: require("./assets/images/duke-university-logo.png"),
       imageAlt: "Duke Logo",
       footerLink: [
-        {name: "Certification", url: "https://www.coursera.org/account/accomplishments/verify/HK6POHX43RLH"},
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/HK6POHX43RLH"
+        }
         // {
         //   name: "Certificate",
         //   url: "https://www.coursera.org/account/accomplishments/verify/HK6POHX43RLH/"
