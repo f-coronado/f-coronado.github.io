@@ -229,28 +229,80 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Some of my projects during undergrad and graduate school",
+  subtitle: "Some of my projects completed during undergrad and graduate school",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/robot_pic.png"),
+      projectName: "Autonomous Mobile Robot",
+      projectDesc: "Assembled & programmed an autonomous mobile robot to transport blocks in randomized environment",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View on Github",
+          url: "https://github.com/f-coronado/ENPM701"
+        },
+        {
+          name: "Watch Video",
+          url: "https://www.youtube.com/watch?v=oqaQbwsCXi0"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/robot_pic.png"),
+      projectName: "LLM Quantization",
+      projectDesc: "Assembled & programmed an autonomous mobile robot to transport blocks in randomized environment",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View on Github",
+          url: "https://github.com/f-coronado/LLM-Quantization"
+        },
+        {
+          name: "Watch Project Overview",
+          url: "https://www.youtube.com/watch?v=THFibxBji30"
+        },
+        {
+          name: "Watch BiLLM Quantization Explained",
+          url: "https://www.youtube.com/watch?v=LfWZWz7MZm0&t=7s"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/calibration_example.png"),
+      projectName: "Checkerboard Calibration",
+      projectDesc: "Single camera calibration including data collection, corner detection and optimization of intrinsic/extrinsic camera parameters",
+      footerLink: [
+        {
+          name: "View on Github",
+          url: "https://github.com/f-coronado/Calibration_StereoVision"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/pickNplace.gif"),
+      projectName: "Pick and Place",
+      projectDesc: "Manipulator arm picking object from table and placing on the floor while avoiding obstacles within its workspace",
+      footerLink: [
+        {
+          name: "View on Github",
+          url: "https://github.com/f-coronado/Pick-and-Place-in-Rviz"
+        },
+        {
+          name: "View on Youtube",
+          url: "https://www.youtube.com/watch?v=r2EN8tWc9d4"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/pickNplace.gif"),
+      projectName: "Teleoperating a custom mobile robot in Gazebo",
+      projectDesc: "Built a custom robot model in Solidworks, exported it as a URDF and integrated a lidar sensor for Rviz visualization. Deploed the robot in Gazebo for teleoperation using custom ROS publisher/subscriber nodes",
+      footerLink: [
+        {
+          name: "View on Github",
+          url: "https://github.com/f-coronado/robot_car"
+        },
+        {
+          name: "View on Youtube",
+          url: "https://www.youtube.com/watch?v=ma_z-m7Bfhs"
         }
       ]
     }
@@ -303,16 +355,16 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Linux and Bash for Data Engineering Certificate",
+      subtitle: "Completed Certifcation from Duke University for Linux and Bash for Data Engineering",
+      image: require("./assets/images/duke-university-logo.png"),
+      imageAlt: "Duke Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", url: "https://www.coursera.org/account/accomplishments/verify/HK6POHX43RLH"},
+        // {
+        //   name: "Certificate",
+        //   url: "https://www.coursera.org/account/accomplishments/verify/HK6POHX43RLH/"
+        // }
       ]
     }
   ],
@@ -321,59 +373,59 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+// const blogSection = {
+//   title: "Blogs",
+//   subtitle:
+//     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+//   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+//   blogs: [
+//     {
+//       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+//       description:
+//         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+//     },
+//     {
+//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+//       title: "Why REACT is The Best?",
+//       description:
+//         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+// const talkSection = {
+//   title: "TALKS",
+//   subtitle: emoji(
+//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+//   ),
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//   talks: [
+//     {
+//       title: "Build Actions For Google Assistant",
+//       subtitle: "Codelab at GDG DevFest Karachi 2019",
+//       slides_url: "https://bit.ly/saadpasta-slides",
+//       event_url: "https://www.facebook.com/events/2339906106275053/"
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Podcast Section
 
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+// const podcastSection = {
+//   title: emoji("Podcast 🎙️"),
+//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//   // Please Provide with Your Podcast embeded Link
+//   podcast: [
+//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Resume Section
 const resumeSection = {
@@ -388,18 +440,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1-301-915-4046",
+  email_address: "fabrizzio37@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
