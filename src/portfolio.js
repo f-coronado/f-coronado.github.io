@@ -47,7 +47,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle: "",
-  subTitle: "Software Engineer that ",
+  subTitle: "Software Engineer that wants to continue developing my expertise in robotics applications",
   skills: [
     emoji(
       "⚡ Develop and test scripts for JPSS weather satellites on simulator and actual satellites"
@@ -65,52 +65,28 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "fa-brands",
+      fontAwesomeClassname: "fa-github"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "fa-brands",
+      fontAwesomeClassname: "fa-ubuntu"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "fa-brands",
+      fontAwesomeClassname: "fa-redhat"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "fa-brands",
+      fontAwesomeClassname: "fa-raspberry-pi"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "cpp",
+      fontAwesomeClassname: "fab fa-cpp"
     },
     {
       skillName: "docker",
@@ -146,7 +122,7 @@ const educationInfo = {
     },
     {
       schoolName: "Montgomery College",
-      logo: require("./assets/images/MCLogo.png"),
+      logo: require("./assets/images/MC.jpeg"),
       subHeader: "Associate of Science in Mechanical Engineering",
       duration: "August 2016 - December 2018",
       desc: "Graduated with a 3.8 GPA. Member of phi theta kappa"
