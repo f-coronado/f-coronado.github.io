@@ -127,7 +127,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Maryland",
-      logo: require("./assets/images/umdLogo.jpg"),
+      logo: require("./assets/images/umd.png"),
       subHeader: "Master of Engineering in Robotics",
       duration: "August 2022 - December 2024",
       desc: "Graduated with a 3.47 GPA. Completed projects in autonomous mobile robots, swarms, Deep networks applications on optical flow"
@@ -138,7 +138,7 @@ const educationInfo = {
     },
     {
       schoolName: "University of Maryland",
-      logo: require("./assets/images/umdLogo.jpg"),
+      logo: require("./assets/images/umd.png"),
       subHeader: "Bachelor of Science in Mechanical Engineering",
       duration: "January 2019 - May 2021",
       desc: "Graduated with a 3.59 GPA. Took courses in mechatronics, computer vision and 3D printing and was a teaching assistant"
@@ -197,7 +197,7 @@ const workExperiences = {
     {
       role: "Intern",
       company: "BAE Systems",
-      companylogo: require("./assets/images/baeLogo.jpg"),
+      companylogo: require("./assets/images/bae-systems.png"),
       date: "June 2020 – Jan 2021",
       desc: "Seasonal Intern supporting the Ohio class submarine integration and testing",
       descBullets: [
@@ -207,7 +207,7 @@ const workExperiences = {
     {
       role: "Teaching Assistant",
       company: "University of Maryland",
-      companylogo: require("./assets/images/umdLogo.jpg"),
+      companylogo: require("./assets/images/umd.png"),
       date: "Aug 2019 – Dec 2019",
       des: "Teaching Assistant for Intro to Computer Aided Design course",
       descBullets: [
