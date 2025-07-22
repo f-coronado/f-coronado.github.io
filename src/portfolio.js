@@ -23,7 +23,7 @@ const greeting = {
   username: "f-coronado",
   title: "Hi, I'm Fabrizzio",
   subTitle: emoji(
-    "I'm software engineer at NASA with a background in robotics, passionate about applying AI, computer vision and autonomous navigation to real-world robotic systems."
+    "I'm software engineer at NASA with a background and passion for applying AI, computer vision and autonomous navigation to real-world robotic systems."
   ),
   resumeLink:
     "https://drive.google.com/file/d/17mtZZifaAUJkxFy4PC35DYoMxMkepPbQ/view?usp=sharing", // Set to empty to hide the button
@@ -184,7 +184,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "NASA JPSS",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/JPSS_Logo.png"),
       date: "July 2021 – Present",
       desc: "Software Engineer working on an integration, testing and operations team for the JPSS weather satellites",
       descBullets: [
@@ -224,7 +224,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -241,11 +241,11 @@ const bigProjects = {
         "Assembled & programmed an autonomous mobile robot to transport blocks in randomized environment",
       footerLink: [
         {
-          name: "View on Github",
+          name: "View Repo on Github",
           url: "https://github.com/f-coronado/ENPM701"
         },
         {
-          name: "Watch Video",
+          name: "Watch Robot in Action",
           url: "https://www.youtube.com/watch?v=oqaQbwsCXi0"
         }
       ]
@@ -257,7 +257,7 @@ const bigProjects = {
         "Assembled & programmed an autonomous mobile robot to transport blocks in randomized environment",
       footerLink: [
         {
-          name: "View on Github",
+          name: "View Repo on Github",
           url: "https://github.com/f-coronado/LLM-Quantization"
         },
         {
@@ -277,7 +277,7 @@ const bigProjects = {
         "Single camera calibration including data collection, corner detection and optimization of intrinsic/extrinsic camera parameters",
       footerLink: [
         {
-          name: "View on Github",
+          name: "View Repo on Github",
           url: "https://github.com/f-coronado/Calibration_StereoVision"
         }
       ]
@@ -289,11 +289,11 @@ const bigProjects = {
         "Manipulator arm picking object from table and placing on the floor while avoiding obstacles within its workspace",
       footerLink: [
         {
-          name: "View on Github",
+          name: "View Repo on Github",
           url: "https://github.com/f-coronado/Pick-and-Place-in-Rviz"
         },
         {
-          name: "View on Youtube",
+          name: "Watch on Youtube",
           url: "https://www.youtube.com/watch?v=r2EN8tWc9d4"
         }
       ]
@@ -305,11 +305,11 @@ const bigProjects = {
         "Built a custom robot model in Solidworks, exported it as a URDF and integrated a lidar sensor for Rviz visualization. Deploed the robot in Gazebo for teleoperation using custom ROS publisher/subscriber nodes",
       footerLink: [
         {
-          name: "View on Github",
+          name: "View Repo on Github",
           url: "https://github.com/f-coronado/robot_car"
         },
         {
-          name: "View on Youtube",
+          name: "Watch on Youtube",
           url: "https://www.youtube.com/watch?v=ma_z-m7Bfhs"
         }
       ]
@@ -463,7 +463,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+// const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -482,6 +482,6 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable,
+  // isHireable,
   resumeSection
 };
