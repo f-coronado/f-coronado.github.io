@@ -65,23 +65,23 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "fa-brands",
-      fontAwesomeClassname: "fa-github"
+      skillName: "Github",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "fa-brands",
-      fontAwesomeClassname: "fa-ubuntu"
+      skillName: "Ubuntu",
+      fontAwesomeClassname: "fab fa-ubuntu"
     },
     {
-      skillName: "fa-brands",
-      fontAwesomeClassname: "fa-redhat"
+      skillName: "Redhat",
+      fontAwesomeClassname: "fab fa-redhat"
     },
     {
-      skillName: "fa-brands",
-      fontAwesomeClassname: "fa-raspberry-pi"
+      skillName: "Raspberry Pi",
+      fontAwesomeClassname: "fab fa-raspberry-pi"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
