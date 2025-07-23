@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9c9afc7d.css",
-    "main.js": "/static/js/main.2aba5322.js",
+    "main.js": "/static/js/main.376ba385.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.5edba06e.chunk.js": "/static/js/64.5edba06e.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -22,9 +22,14 @@
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/resume.pdf": "/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/index.html",
+    "static/media/opencv.svg": "/static/media/opencv.5fd12c99f9e43d178d887de59c03877b.svg",
+    "static/media/ros.svg": "/static/media/ros.ca9fd18fd454d23659f5dacdad63e954.svg",
+    "static/media/numpy.svg": "/static/media/numpy.772f5d33d4f41c510ae4a91a02552201.svg",
+    "static/media/cplusplus.svg": "/static/media/cplusplus.1b61d12f1e13619f72f915b0e77f83b3.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "static/media/pytorch.svg": "/static/media/pytorch.e64d02bdfe5507b5c8ec2ea495753d36.svg",
     "main.9c9afc7d.css.map": "/static/css/main.9c9afc7d.css.map",
-    "main.2aba5322.js.map": "/static/js/main.2aba5322.js.map",
+    "main.376ba385.js.map": "/static/js/main.376ba385.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.5edba06e.chunk.js.map": "/static/js/64.5edba06e.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -32,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.9c9afc7d.css",
-    "static/js/main.2aba5322.js"
+    "static/js/main.376ba385.js"
   ]
 }
