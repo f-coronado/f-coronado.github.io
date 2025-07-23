@@ -85,12 +85,29 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "cpp",
-      fontAwesomeClassname: "fab fa-cpp"
+      skillName: "C++",
+      iconUrl: require("./assets/images/cplusplus.svg")
+      // fontAwesomeClassname: ""
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "ROS",
+      iconUrl: require("./assets/images/ros.svg")
+    },
+    {
+      skillName: "Numpy",
+      iconUrl: require("./assets/images/numpy.svg")
+    },
+    {
+      skillName: "OpenCV",
+      iconUrl: require("./assets/images/opencv.svg")
+    },
+    {
+      skillName: "PyTorch",
+      iconUrl: require("./assets/images/pytorch.svg")
     }
   ],
   display: true // Set false to hide this section, defaults to true
