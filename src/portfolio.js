@@ -95,19 +95,19 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "ROS",
-      iconUrl: require("/assets/images/ros.svg")
+      iconUrl: require("./assets/images/ros.svg")
     },
     {
       skillName: "Numpy",
-      iconUrl: require("/assets/images/numpy.svg")
+      iconUrl: require("./assets/images/numpy.svg")
     },
     {
       skillName: "OpenCV",
-      iconUrl: require("/assets/images/opencv.svg")
+      iconUrl: require("./assets/images/opencv.svg")
     },
     {
       skillName: "PyTorch",
-      iconUrl: require("/assets/images/pytorch.svg")
+      iconUrl: require("./assets/images/pytorch.svg")
     }
   ],
   display: true // Set false to hide this section, defaults to true
