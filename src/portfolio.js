@@ -320,7 +320,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/LLM-Astar.png"),
+      image: require("./assets/images/Astar.png"),
       projectName: "A Star",
       projectDesc:
         "Combining RRT sampling with A* path planning enables efficient trajectory generation for a non-holonomic differential mobile robot in 2D simulated environments by reducing excessive tree growth and optimizing path computation",
