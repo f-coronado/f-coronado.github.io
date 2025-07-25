@@ -23,7 +23,7 @@ const greeting = {
   username: "f-coronado",
   title: "Hi, I'm Fabrizzio",
   subTitle: emoji(
-    "I'm software engineer at NASA with a background and passion for applying AI, computer vision and autonomous navigation to real-world robotic systems."
+    "I'm a software engineer at NASA with a background and passion for applying AI, computer vision and autonomous navigation to real-world robotic systems."
   ),
   resumeLink:
     "https://drive.google.com/file/d/17mtZZifaAUJkxFy4PC35DYoMxMkepPbQ/view?usp=sharing", // Set to empty to hide the button
@@ -154,15 +154,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Autonomous Navigation",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Artificial Intelligence", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Programming",
+      Stack: "Computer Vision",
       progressPercentage: "60%"
     }
   ],
@@ -231,7 +231,7 @@ const bigProjects = {
       image: require("./assets/images/robot_pic.png"),
       projectName: "Autonomous Mobile Robot",
       projectDesc:
-        "Assembled & programmed an autonomous mobile robot to transport blocks in randomized environment",
+        "Assembled & programmed an autonomous mobile robot to transport blocks in a randomized environment",
       footerLink: [
         {
           name: "View Repo on Github",
@@ -244,10 +244,10 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/robot_pic.png"),
+      image: require("./assets/images/LLM-quant.png"),
       projectName: "LLM Quantization",
       projectDesc:
-        "Assembled & programmed an autonomous mobile robot to transport blocks in randomized environment",
+        "Evaluated and integrated multiple post-training quantization techniques—including 8-bit, 4-bit, BiLLM, and pruning—on LLaMA-3.2-3B to assess their impact on factuality, adapting MMLU for 5-shot learning",
       footerLink: [
         {
           name: "View Repo on Github",
@@ -260,6 +260,18 @@ const bigProjects = {
         {
           name: "Watch BiLLM Quantization Explained",
           url: "https://www.youtube.com/watch?v=LfWZWz7MZm0&t=7s"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/calibration_example.png"),
+      projectName: "Obstacle Avoidance Simulation",
+      projectDesc:
+        "Developed a basic obstacle avoidance system in Gazebo using C++ and ROS2, leveraging LiDAR data to dynamically adjust the robot's speed and heading. Also integrated ROS2 bag support for recording and playback of simulation data",
+      footerLink: [
+        {
+          name: "View Repo on Github",
+          url: "https://github.com/f-coronado/simple-avoidance-simulation"
         }
       ]
     },
@@ -306,6 +318,38 @@ const bigProjects = {
           url: "https://www.youtube.com/watch?v=ma_z-m7Bfhs"
         }
       ]
+    },
+    {
+      image: require("./assets/images/LLM-Astar.png"),
+      projectName: "A Star",
+      projectDesc:
+        "Combining RRT sampling with A* path planning enables efficient trajectory generation for a non-holonomic differential mobile robot in 2D simulated environments by reducing excessive tree growth and optimizing path computation",
+      footerLink: [
+        {
+          name: "View Repo on Github",
+          url: "https://github.com/f-coronado/A-Star-Search"
+        },
+        {
+          name: "Read Report",
+          url: "https://drive.google.com/file/d/1iNmnBO30_pkyyYF2QeGOMjar1d1lMJAX/view?usp=sharing"
+        },
+        // {
+        //   name: "Watch BiLLM Quantization Explained",
+        //   url: "https://www.youtube.com/watch?v=LfWZWz7MZm0&t=7s"
+        // }
+      ]
+    },
+    {
+      image: require("./assets/images/pickNplace.gif"),
+      projectName: "Beginner ROS Project",
+      projectDesc:
+        "Created a beginner friendly ROS2 package which demos how to use publishers, subscribers, launch files, executables, inspecting transform frames, running ROS tests, recording and playing bag files.",
+      footerLink: [
+        {
+          name: "View Repo on Github",
+          url: "https://github.com/f-coronado/cpp_pubsub"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -320,40 +364,40 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
+    // {
+    //   title: "Google Code-In Finalist",
+    //   subtitle:
+    //     "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+    //   image: require("./assets/images/codeInLogo.webp"),
+    //   imageAlt: "Google Code-In Logo",
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+    //     },
+    //     {
+    //       name: "Award Letter",
+    //       url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+    //     },
+    //     {
+    //       name: "Google Code-in Blog",
+    //       url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+    //     }
+    //   ]
+    // },
+    // {
+    //   title: "Google Assistant Action",
+    //   subtitle:
+    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+    //   image: require("./assets/images/googleAssistantLogo.webp"),
+    //   imageAlt: "Google Assistant Action Logo",
+    //   footerLink: [
+    //     {
+    //       name: "View Google Assistant Action",
+    //       url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+    //     }
+    //   ]
+    // },
 
     {
       title: "Linux and Bash for Data Engineering Certificate",
@@ -456,7 +500,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+//const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -475,6 +519,6 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable,
+//  isHireable,
   resumeSection
 };
