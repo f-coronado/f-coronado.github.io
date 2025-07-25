@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.83fef7cf.css",
-    "main.js": "/static/js/main.984c49cc.js",
+    "main.js": "/static/js/main.56148630.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.5edba06e.chunk.js": "/static/js/64.5edba06e.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.268e29f2.chunk.js": "/static/js/769.268e29f2.chunk.js",
+    "static/js/769.87648fce.chunk.js": "/static/js/769.87648fce.chunk.js",
     "static/media/pickNplace.gif": "/static/media/pickNplace.4dd84957d7777425528b.gif",
     "static/media/calibration_example.png": "/static/media/calibration_example.60f4b28e5a3919d348cb.png",
     "static/media/robot_pic.png": "/static/media/robot_pic.fc8171b07307ff83c64a.png",
+    "static/media/LLM-quant.png": "/static/media/LLM-quant.c23c5490aad483953ed4.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/JPSS_Logo.png": "/static/media/JPSS_Logo.0164022433b8f1ee0223.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/umd.png": "/static/media/umd.13b2dc0f044c09c6eade.png",
+    "static/media/resume.pdf": "/static/media/resume.83aa673a27f6b5f6b623.pdf",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/Astar.png": "/static/media/Astar.b3c058015b281cfc2cd4.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
-    "static/media/codeInLogo.webp": "/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/bae-systems.png": "/static/media/bae-systems.b6194273dd6844b3dbb1.png",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/resume.pdf": "/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/index.html",
     "static/media/opencv.svg": "/static/media/opencv.5fd12c99f9e43d178d887de59c03877b.svg",
     "static/media/ros.svg": "/static/media/ros.ca9fd18fd454d23659f5dacdad63e954.svg",
@@ -29,14 +29,14 @@
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "static/media/pytorch.svg": "/static/media/pytorch.e64d02bdfe5507b5c8ec2ea495753d36.svg",
     "main.83fef7cf.css.map": "/static/css/main.83fef7cf.css.map",
-    "main.984c49cc.js.map": "/static/js/main.984c49cc.js.map",
+    "main.56148630.js.map": "/static/js/main.56148630.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.5edba06e.chunk.js.map": "/static/js/64.5edba06e.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
-    "769.268e29f2.chunk.js.map": "/static/js/769.268e29f2.chunk.js.map"
+    "769.87648fce.chunk.js.map": "/static/js/769.87648fce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83fef7cf.css",
-    "static/js/main.984c49cc.js"
+    "static/js/main.56148630.js"
   ]
 }
