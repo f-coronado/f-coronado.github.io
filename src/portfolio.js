@@ -47,7 +47,8 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle: "",
-  subTitle: "Software Engineer that wants to continue developing my expertise in robotics applications",
+  subTitle:
+    "Software Engineer that wants to continue developing my expertise in robotics applications",
   skills: [
     emoji(
       "⚡ Develop and test scripts for JPSS weather satellites on simulator and actual satellites"
@@ -332,7 +333,7 @@ const bigProjects = {
         {
           name: "Read Report",
           url: "https://drive.google.com/file/d/1iNmnBO30_pkyyYF2QeGOMjar1d1lMJAX/view?usp=sharing"
-        },
+        }
         // {
         //   name: "Watch BiLLM Quantization Explained",
         //   url: "https://www.youtube.com/watch?v=LfWZWz7MZm0&t=7s"
@@ -519,6 +520,6 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-//  isHireable,
+  //  isHireable,
   resumeSection
 };
