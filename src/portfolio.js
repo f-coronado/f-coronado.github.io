@@ -92,7 +92,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "C++",
-      iconUrl: cppIcon,
+      iconUrl: cppIcon
       // fontAwesomeClassname: ""
     },
     {
@@ -101,19 +101,19 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "ROS",
-      iconUrl: rosIcon,
+      iconUrl: rosIcon
     },
     {
       skillName: "Numpy",
-      iconUrl: numpyIcon,
+      iconUrl: numpyIcon
     },
     {
       skillName: "OpenCV",
-      iconUrl: opencvIcon,
+      iconUrl: opencvIcon
     },
     {
       skillName: "PyTorch",
-      iconUrl: pytorchIcon,
+      iconUrl: pytorchIcon
     }
   ],
   display: true // Set false to hide this section, defaults to true
