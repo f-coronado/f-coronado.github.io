@@ -46,11 +46,13 @@ export default function StartupProject() {
                   {project.image ? (
                     <div className="project-image">
                       <img
+                        key={project.image}
                         src={project.image}
                         alt={project.projectName}
+                        loading="lazy"
                         className="card-image"
                         style={{
-                          imageRendering: "auto",
+//                          imageRendering: "auto",
                           maxWidth: "100%",
                           height: "auto",
                           display: "block",
