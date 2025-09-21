@@ -59,7 +59,7 @@ const skillsSection = {
       "⚡ Develop and test scripts for JPSS weather satellites on simulator and actual satellites"
     ),
     emoji(
-      "⚡ Ran multi-day test events as flight director ensuring safe execution of test procedure"
+      "⚡ Run multiple-day long test events as flight director ensuring safe execution of test procedure"
     ),
     emoji(
       "⚡ Configure, troubleshoot and maintain multiple satellite simulators"
@@ -165,11 +165,11 @@ const techStack = {
     },
     {
       Stack: "Artificial Intelligence", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Computer Vision",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -185,11 +185,11 @@ const workExperiences = {
       company: "NASA JPSS",
       companylogo: require("./assets/images/JPSS_Logo.png"),
       date: "July 2021 – Present",
-      desc: "Software Engineer working on an integration, testing and operations team for the JPSS weather satellites",
+      desc: "Software Engineer working on the integration, testing and early orbit operations team for JPSS weather satellites",
       descBullets: [
-        "Provided simulator support for the JPSS-2/NOAA-21 weather satellite prior and during its launch and early orbit campaign in November 2022 ",
+        "Provided simulator support for the JPSS-2/NOAA-21 weather satellite prior to and during its launch and early orbit campaign in November 2022",
         "Developed and validated power and thermal control scripts for JPSS-3 and 4 weather satellites on simulator and flight hardware, scheduled to launch in 2027",
-        "Served as flight director during test events, ensuring clear communication and execution of procedures",
+        "Supported as flight director during preparedness testing events, ensuring clear communication and execution of procedures while meeting test objectives",
         "Led the development of a 35-page guide for configuring, maintaining and troubleshooting JPSS2-4 satellite simulators "
       ]
     },
@@ -200,7 +200,9 @@ const workExperiences = {
       date: "June 2020 – Jan 2021",
       desc: "Seasonal Intern supporting the Ohio class submarine integration and testing",
       descBullets: [
-        "Created 40+ models and drawings adhering to strict tolerances for Ohio class submarines which contributed to modernizing the upcoming submarines "
+        "Created 40+ models and drawings adhering to strict tolerances for Ohio class submarines which contributed to modernizing the upcoming submarines",
+        "Collaborated with engineers and drafters to ensure designs met technical specifications and standards",
+        "Utilized PTC Creo to create 3D models and 2D drawings, ensuring accuracy and adherence to project requirements"
       ]
     },
     {
@@ -211,7 +213,7 @@ const workExperiences = {
       des: "Teaching Assistant for Intro to Computer Aided Design course",
       descBullets: [
         "Taught and guided over 100 students on modeling and drafting parts ranging from X to Y in SolidWorks, PTC Creo and Autodesk Inventor",
-        "Aided students during 2 class sessions per week and held office hours on a weekly basis",
+        "Assisted students during 2 class sessions per week and held office hours on a weekly basis",
         "Held review sessions before exams and uploaded tutorial videos for modeling and drafting parts which showed an increase in exam scores when compared to prior semesters"
       ]
     }
@@ -367,18 +369,18 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certifications I've completed",
 
   achievementsCards: [
     {
       title: "Python Data Structures",
       subtitle:
         "Completed Certifcation from University of Michigan for Python Data Structures",
-      image: require("./assets/images/UofMichigan.jpg"),
+      image: require("./assets/images/U-M_Logo.png"),
       imageAlt: "U of M Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "Certificate",
           url: "https://www.coursera.org/account/accomplishments/verify/IMY01239C20H"
         }
       ]
@@ -391,7 +393,7 @@ const achievementSection = {
       imageAlt: "Duke Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "Certificate",
           url: "https://www.coursera.org/account/accomplishments/verify/HK6POHX43RLH"
         }
       ]
