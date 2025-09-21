@@ -36,7 +36,7 @@ export default function StartupProject() {
             {bigProjects.projects.map((project, i) => {
               return (
                 <div
-                  key={i}
+                  key={project.projectName}
                   className={
                     isDark
                       ? "dark-mode project-card project-card-dark"
@@ -49,7 +49,6 @@ export default function StartupProject() {
                         key={project.image}
                         src={project.image}
                         alt={project.projectName}
-                        loading="lazy"
                         className="card-image"
                         style={{
 //                          imageRendering: "auto",
