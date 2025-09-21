@@ -9,6 +9,7 @@ import rosIcon from "./assets/images/ros.svg";
 import numpyIcon from "./assets/images/numpy.svg";
 import opencvIcon from "./assets/images/opencv.svg";
 import pytorchIcon from "./assets/images/pytorch.svg";
+import pickNplaceGIF from "./assets/images/pickNplace.gif";
 
 // Splash Screen
 
@@ -296,7 +297,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/pickNplace.gif"),
+      image: pickNplaceGIF,
       projectName: "Pick and Place",
       projectDesc:
         "Manipulator arm picking object from table and placing on the floor while avoiding obstacles within its workspace",
