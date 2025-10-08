@@ -190,7 +190,7 @@ const workExperiences = {
       descBullets: [
         "Provided simulator support for the JPSS-2/NOAA-21 weather satellite prior to and during its launch and early orbit campaign in November 2022",
         "Developed and validated power and thermal control scripts for JPSS-3 and 4 weather satellites on simulator and flight hardware, scheduled to launch in 2027",
-        "Supported as flight director during preparedness testing events, ensuring clear communication and execution of procedures while meeting test objectives",
+        "Supported as flight director during preparedness test events, ensuring clear communication and execution of procedures while meeting test objectives",
         "Led the development of a 35-page guide for configuring, maintaining and troubleshooting JPSS2-4 satellite simulators "
       ]
     },
@@ -213,7 +213,7 @@ const workExperiences = {
       date: "Aug 2019 – Dec 2019",
       des: "Teaching Assistant for Intro to Computer Aided Design course",
       descBullets: [
-        "Taught and guided over 100 students on modeling and drafting parts ranging from X to Y in SolidWorks, PTC Creo and Autodesk Inventor",
+        "Taught and guided over 100 students on modeling, assembling and drafting objects such as fans, bottles, gears, belt systems and more in SolidWorks, PTC Creo and Autodesk Inventor",
         "Assisted students during 2 class sessions per week and held office hours on a weekly basis",
         "Held review sessions before exams and uploaded tutorial videos for modeling and drafting parts which showed an increase in exam scores when compared to prior semesters"
       ]
@@ -273,7 +273,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/calibration_example.png"),
+      image: require("./assets/images/obstacle_avoidance.png"),
       projectName: "Obstacle Avoidance Simulation",
       projectDesc:
         "Developed a basic obstacle avoidance system in Gazebo using C++ and ROS2, leveraging LiDAR data to dynamically adjust the robot's speed and heading. Also integrated ROS2 bag support for recording and playback of simulation data",
@@ -297,7 +297,7 @@ const bigProjects = {
       ]
     },
     {
-      image: pickNplaceGIF,
+      image: require("./assets/images/pickNplace.png"),
       projectName: "Pick and Place",
       projectDesc:
         "Manipulator arm picking object from table and placing on the floor while avoiding obstacles within its workspace",
@@ -313,7 +313,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/pickNplace.gif"),
+      image: require("./assets/images/gazebo_rviz.png"),
       projectName: "Teleoperating a custom mobile robot in Gazebo",
       projectDesc:
         "Built a custom robot model in Solidworks, exported it as a URDF and integrated a lidar sensor for Rviz visualization. Deploed the robot in Gazebo for teleoperation using custom ROS publisher/subscriber nodes",
@@ -349,7 +349,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/pickNplace.gif"),
+      image: require("./assets/images/cpp_pubsub_colcon_test.png"),
       projectName: "Beginner ROS Project",
       projectDesc:
         "Created a beginner friendly ROS2 package which demos how to use publishers, subscribers, launch files, executables, inspecting transform frames, running ROS tests, recording and playing bag files.",
