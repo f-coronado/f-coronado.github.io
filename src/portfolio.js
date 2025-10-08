@@ -369,8 +369,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Certifications I've completed",
+  subtitle: "Certifications I've completed",
 
   achievementsCards: [
     {
