@@ -272,7 +272,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/obstacle_avoidance.png"),
+      image: require("./assets/images/calibration_example.png"),
       projectName: "Obstacle Avoidance Simulation",
       projectDesc:
         "Developed a basic obstacle avoidance system in Gazebo using C++ and ROS2, leveraging LiDAR data to dynamically adjust the robot's speed and heading. Also integrated ROS2 bag support for recording and playback of simulation data",
