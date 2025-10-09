@@ -9,7 +9,6 @@ import rosIcon from "./assets/images/ros.svg";
 import numpyIcon from "./assets/images/numpy.svg";
 import opencvIcon from "./assets/images/opencv.svg";
 import pytorchIcon from "./assets/images/pytorch.svg";
-import pickNplaceGIF from "./assets/images/pickNplace.gif";
 
 // Splash Screen
 
