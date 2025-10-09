@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.2645f937.css",
-    "main.js": "/static/js/main.cfff60d2.js",
+    "main.js": "/static/js/main.3f4d9780.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.5edba06e.chunk.js": "/static/js/64.5edba06e.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.a6a78ce7.chunk.js": "/static/js/769.a6a78ce7.chunk.js",
-    "static/media/pickNplace.gif": "/static/media/pickNplace.4dd84957d7777425528b.gif",
     "static/media/calibration_example.png": "/static/media/calibration_example.60f4b28e5a3919d348cb.png",
     "static/media/robot_pic.png": "/static/media/robot_pic.fc8171b07307ff83c64a.png",
     "static/media/LLM-quant.png": "/static/media/LLM-quant.c23c5490aad483953ed4.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/gazebo_rviz.png": "/static/media/gazebo_rviz.22f1c1f61b7810751cd8.png",
     "static/media/JPSS_Logo.png": "/static/media/JPSS_Logo.0164022433b8f1ee0223.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/pickNplace.png": "/static/media/pickNplace.7ae04b97091a8ff8b83b.png",
     "static/media/umd.png": "/static/media/umd.13b2dc0f044c09c6eade.png",
     "static/media/resume.pdf": "/static/media/resume.83aa673a27f6b5f6b623.pdf",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/cpp_pubsub_colcon_test.png": "/static/media/cpp_pubsub_colcon_test.5b13693476293ecd9dc7.png",
     "static/media/Astar.png": "/static/media/Astar.b3c058015b281cfc2cd4.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
@@ -30,7 +32,7 @@
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "static/media/pytorch.svg": "/static/media/pytorch.e64d02bdfe5507b5c8ec2ea495753d36.svg",
     "main.2645f937.css.map": "/static/css/main.2645f937.css.map",
-    "main.cfff60d2.js.map": "/static/js/main.cfff60d2.js.map",
+    "main.3f4d9780.js.map": "/static/js/main.3f4d9780.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.5edba06e.chunk.js.map": "/static/js/64.5edba06e.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -38,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.2645f937.css",
-    "static/js/main.cfff60d2.js"
+    "static/js/main.3f4d9780.js"
   ]
 }
