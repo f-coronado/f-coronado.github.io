@@ -24,9 +24,7 @@ export default function StartupProject() {
         <h1 className="skills-heading">{bigProjects.title}</h1>
         <p
           className={
-            isDark
-              ? "dark-mode project-subtitle"
-              : "subTitle project-subtitle"
+            isDark ? "dark-mode project-subtitle" : "subTitle project-subtitle"
           }
         >
           {bigProjects.subtitle}
@@ -51,10 +49,10 @@ export default function StartupProject() {
                       alt={project.projectName}
                       className="card-image"
                       style={{
-//                          imageRendering: "auto",
+                        //                          imageRendering: "auto",
                         maxWidth: "100%",
                         height: "auto",
-                        display: "block",
+                        display: "block"
                       }}
                     ></img>
                   </div>
